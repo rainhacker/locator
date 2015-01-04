@@ -81,7 +81,7 @@
                 <div class="footer">
                     <nav>
                         <ul class="nav nav-pills pull-right">
-                            <li ><a href="https://github.com/">GitHub</a>
+                            <li ><a href="https://github.com/rainmaker7/locator/tree/master">GitHub</a>
                             </li>
                             <li role="presentation"><a href="https://data.cityofnewyork.us/Social-Services/NYC-Wi-Fi-Hotspot-Locations/a9we-mtpn">NYC OpenData</a>
                             </li>
