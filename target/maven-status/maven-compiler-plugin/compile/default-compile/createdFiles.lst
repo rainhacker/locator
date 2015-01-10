@@ -1,8 +1,0 @@
-locator\selector\NearestNlocationSelector.class
-locator\selector\NearestNlocationSelector$LocationDistance.class
-locator\selector\NearestNlocationSelector$1.class
-locator\Location.class
-locator\selector\NearestOneLocationSelector.class
-locator\selector\LocationSelectorSimpleFactory.class
-locator\selector\AbstractLocationSelector.class
-locator\MapServlet.class
