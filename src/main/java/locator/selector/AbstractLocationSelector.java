@@ -2,7 +2,6 @@ package locator.selector;
 
 import au.com.bytecode.opencsv.CSVReader;
 import locator.Location;
-
 import javax.servlet.ServletContext;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -49,7 +48,7 @@ public abstract class AbstractLocationSelector {
             //call appropriate location chooser (nearest one / nearest few)
             processCurrentLocation(locations, getCurrentLocation(geolocationRecord), false);
         }
-
+        
         processCurrentLocation(locations, null, true);
     }
 
