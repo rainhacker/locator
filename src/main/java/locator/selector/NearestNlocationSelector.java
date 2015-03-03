@@ -40,11 +40,8 @@ public class NearestNlocationSelector extends AbstractLocationSelector {
                 @Override
                 public int compare(LocationDistance ld1, LocationDistance ld2) {
 
-                    Double dist1 = ld1.distanceFromUser;
+                    return ld1.distanceFromUser.compareTo(ld2.distanceFromUser);
 
-                    Double dist2 = ld2.distanceFromUser;
-
-                    return dist1.compareTo(dist2);
                 }
             });
 
