@@ -41,15 +41,15 @@ public class MapServlet extends HttpServlet {
 
         AbstractLocationSelector locationSelector =
                 LocationSelectorSimpleFactory.createLocationSelector(show);
-
-        locationSelector.setNearestLocationList(locations, getServletContext());
-
+                
         if (locationSelector == null) {
 
             out.println("Error: Invalid choice");
 
             return;
         }
+
+        locationSelector.setNearestLocationList(locations, getServletContext());
 
         request.setAttribute("locationList", gson.toJson(locations));
 
