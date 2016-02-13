@@ -9,7 +9,8 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 /**
- * Created by Parth on 12/27/2014.
+ * 
+ * @author Parth Solanki
  */
 public abstract class AbstractLocationSelector {
 
