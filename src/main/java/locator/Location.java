@@ -1,9 +1,9 @@
 package locator;
 
 /**
- * Created by Parth on 12/20/2014.
- *
  * POJO representation of geolocation record in db
+ * 
+ * @author Parth Solanki
  */
 public class Location {
 
