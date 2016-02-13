@@ -14,6 +14,12 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Servelet hanlder that processes requests to fetch nearby WiFi hotspots
+ * 
+ * @author Parth Solanki
+ */
+ 
 public class MapServlet extends HttpServlet {
 
     @Override
