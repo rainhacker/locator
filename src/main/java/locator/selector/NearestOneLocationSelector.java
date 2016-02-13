@@ -5,8 +5,8 @@ import locator.Location;
 import java.util.List;
 
 /**
- * Created by Parth on 12/20/2014.
  *
+ * @author Parth Solanki
  */
 public class NearestOneLocationSelector extends AbstractLocationSelector {
 
